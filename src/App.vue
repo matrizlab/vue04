@@ -3,7 +3,8 @@
     <!-- <FormComponent /> -->
     <!-- <Home /> -->
     <!-- <Tabs /> -->
-    <Layout />
+    <!-- <Layout /> -->
+    <Popovers />
   </div>
 </template>
 
@@ -11,7 +12,8 @@
 // import FormComponent from "./components/FormComponent.vue";
 // import Home from "./components/Home.vue";
 // import Tabs from "./components/Tabs.vue";
-import Layout from "./components/Layout.vue";
+// import Layout from "./components/Layout.vue";
+import Popovers from "./components/Popovers.vue";
 
 export default {
   name: "app",
@@ -19,7 +21,8 @@ export default {
     // FormComponent,
     // Home,
     // Tabs,
-    Layout
+    // Layout,
+    Popovers
   }
 };
 </script>
