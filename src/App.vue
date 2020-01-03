@@ -2,21 +2,24 @@
   <div id="app">
     <!-- <FormComponent /> -->
     <!-- <Home /> -->
-    <Tabs />
+    <!-- <Tabs /> -->
+    <Layout />
   </div>
 </template>
 
 <script>
 // import FormComponent from "./components/FormComponent.vue";
 // import Home from "./components/Home.vue";
-import Tabs from "./components/Tabs.vue";
+// import Tabs from "./components/Tabs.vue";
+import Layout from "./components/Layout.vue";
 
 export default {
   name: "app",
   components: {
     // FormComponent,
     // Home,
-    Tabs
+    // Tabs,
+    Layout
   }
 };
 </script>
