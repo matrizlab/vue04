@@ -4,7 +4,9 @@
     <!-- <Home /> -->
     <!-- <Tabs /> -->
     <!-- <Layout /> -->
-    <Popovers />
+    <!-- <Popovers /> -->
+    <!-- <Scrollspy /> -->
+    <Tooltip />
   </div>
 </template>
 
@@ -13,7 +15,9 @@
 // import Home from "./components/Home.vue";
 // import Tabs from "./components/Tabs.vue";
 // import Layout from "./components/Layout.vue";
-import Popovers from "./components/Popovers.vue";
+// import Popovers from "./components/Popovers.vue";
+// import Scrollspy from "./components/Scrollspy.vue";
+import Tooltip from "./components/Tooltip.vue";
 
 export default {
   name: "app",
@@ -22,7 +26,9 @@ export default {
     // Home,
     // Tabs,
     // Layout,
-    Popovers
+    // Popovers,
+    // Scrollspy,
+    Tooltip
   }
 };
 </script>
