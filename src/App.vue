@@ -1,23 +1,26 @@
 <template>
   <div id="app">
-    <FormComponent />
+    <!-- <FormComponent /> -->
+    <Home />
   </div>
 </template>
 
 <script>
-import FormComponent from './components/FormComponent.vue'
+// import FormComponent from "./components/FormComponent.vue";
+import Home from "./components/Home.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    FormComponent
+    // FormComponent,
+    Home
   }
-}
+};
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
